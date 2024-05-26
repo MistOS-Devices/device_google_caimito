@@ -51,4 +51,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=google/tokay/tokay:15/AP4A.250205.002/12821496:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
-$(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
+ifneq ($(wildcard vendor/google_devices/tokay/proprietary/device-vendor.mk),)
+else
+  $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
+endif
