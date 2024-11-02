@@ -21,6 +21,10 @@ PRODUCT_PACKAGES += \
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
+# Pixel Display Service
+PRODUCT_PACKAGES += \
+    PixelDisplayServiceOverlay
+
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
 
