@@ -25,7 +25,8 @@ $(call inherit-product-if-exists, vendor/google/faceunlock/config.mk)
 PRODUCT_PACKAGES += \
     Iwlan
 
-# PowerShare
+
+# PoerShare
 include hardware/google/pixel/powershare/device.mk
 
 # Pixel Parts
