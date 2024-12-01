@@ -96,6 +96,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
 
+# Face unlock
+$(call inherit-product-if-exists, vendor/google/faceunlock/config.mk)
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.location.gps.prebuilt.xml
