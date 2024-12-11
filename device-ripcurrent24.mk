@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+SHIPPING_API_LEVEL := 34
+
 ifdef RELEASE_GOOGLE_RIPCURRENT24_RADIO_DIR
 RELEASE_GOOGLE_PRODUCT_RADIO_DIR := $(RELEASE_GOOGLE_RIPCURRENT24_RADIO_DIR)
 endif
@@ -44,6 +46,7 @@ include hardware/google/pixel/vibrator/cs40l26/device-stereo.mk
 include device/google/gs-common/bcmbt/bluetooth.mk
 include device/google/gs-common/touch/stm/stm20.mk
 include device/google/caimito/fingerprint/ultrasonic_udfps.mk
+include device/google/gs-common/gril/hidl/1.7/gril_hidl.mk
 
 # go/lyric-soong-variables
 # Set to 'ripcurrent' as ripcurrent camera service is compatible with ripcurrent24.
