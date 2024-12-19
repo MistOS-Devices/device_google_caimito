@@ -24,7 +24,7 @@ PRODUCT_PACKAGES += \
     Iwlan
 
 # PixelParts
-include packages/apps/PixelParts/device.mk
+-include packages/apps/PixelParts/device.mk
 
 
 # PixelSupport
