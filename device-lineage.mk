@@ -18,6 +18,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
 
+# IWLAN
+PRODUCT_PACKAGES += \
+    Iwlan
+
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
