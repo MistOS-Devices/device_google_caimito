@@ -3460,6 +3460,12 @@
     },
     {
       "PowerHint": "GAME",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "419000"
+    },
+    {
+      "PowerHint": "GAME",
       "Node": "PMU_POLL",
       "Duration": 0,
       "Value": "0"
