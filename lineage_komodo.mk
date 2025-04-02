@@ -5,7 +5,12 @@
 #
 
 # Inherit some common stuff
+ROM_VENDOR := lineage
+ifdef ROM_VENDOR
+$(call inherit-product, vendor/$(ROM_VENDOR)/config/common_full_phone.mk)
+else
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+endif
 
 # Inherit device configuration
 DEVICE_CODENAME := komodo
@@ -14,7 +19,11 @@ VENDOR_PATH := vendor/google/komodo
 $(call inherit-product, $(DEVICE_PATH)/aosp_$(DEVICE_CODENAME).mk)
 
 # Device identifier. This must come after all inclusions
+ifdef ROM_VENDOR
+PRODUCT_NAME := $(ROM_VENDOR)_$(DEVICE_CODENAME)
+else
 PRODUCT_NAME := lineage_$(DEVICE_CODENAME)
+endif
 PRODUCT_SYSTEM_BRAND := google
 PRODUCT_SYSTEM_MANUFACTURER := Google
 PRODUCT_SYSTEM_NAME := generic_system_google
@@ -22,6 +31,7 @@ PRODUCT_SYSTEM_NAME := generic_system_google
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2992
 TARGET_SCREEN_WIDTH := 1344
+TARGET_BOOT_ANIMATION_RES := 1344
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="komodo-user 17 CP2A.260805.005 15828068 release-keys" \
