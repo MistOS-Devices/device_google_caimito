@@ -1,0 +1,8 @@
+ro.mist.display=1280 x 2856, 120 Hz, HDR10+
+ro.mist.battery=4700 mAh
+ro.mist.soc=Google Tensor G4
+ro.mist.camera=50MP + 48MP + 48MP
+ro.mist.front=42MP
+ro.mist.platform=zumapro
+ro.mist.screen=6.3" LTPO OLED
+ro.mist.device.name=Google Pixel 9 Pro

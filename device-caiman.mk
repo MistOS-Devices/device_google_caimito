@@ -66,6 +66,8 @@ PRODUCT_COPY_FILES += \
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/vendor.prop
+# Custom MistOS about phone properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/custom_system.prop
 
 # Recovery
 PRODUCT_COPY_FILES += \

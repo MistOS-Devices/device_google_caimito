@@ -28,6 +28,46 @@ PRODUCT_SYSTEM_BRAND := google
 PRODUCT_SYSTEM_MANUFACTURER := Google
 PRODUCT_SYSTEM_NAME := generic_system_google
 
+# UDFPS support
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+
+# Blur
+TARGET_ENABLE_BLUR := true
+
+# Lawnchair (Pixel Launcher by default)
+TARGET_INCLUDE_PIXEL_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
+# Exclude Aperture camera app
+PRODUCT_NO_CAMERA := true
+
+# Custom package installer
+TARGET_USE_CUSTOM_PACKAGE_INSTALLER := true
+
+# Live wallpapers
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+
+# Quick tap
+TARGET_SUPPORTS_QUICK_TAP  := true
+
+# Now Playing
+TARGET_SUPPORTS_NOW_PLAYING := true
+
+# Clear Calling
+TARGET_SUPPORTS_CLEAR_CALLING := true
+
+# Call Recording Support
+TARGET_SUPPORTS_CALL_RECORDING := true
+
+# Bypass charging
+BYPASS_CHARGE_SUPPORTED := true
+
+# Mist OS Flags
+MIST_BUILD_TYPE := OFFICIAL
+MISTOS_MAINTAINER := GamerBoy1234294
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2856
 TARGET_SCREEN_WIDTH := 1280
