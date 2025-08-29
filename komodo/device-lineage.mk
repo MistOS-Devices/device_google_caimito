@@ -12,6 +12,8 @@ PRODUCT_PACKAGES += \
     PixelDisplayServiceOverlayKomodo
 
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/vendor.prop
+# Custom MistOS about phone properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/$(DEVICE_CODENAME)/custom_system.prop
 
 # Init
 PRODUCT_PACKAGES += \
