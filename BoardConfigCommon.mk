@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Silence errors/warnings
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+BUILD_BROKEN_DUP_RULES := true
+
 # Security - must be defined before including BoardConfig-common.mk
 BOOT_SECURITY_PATCH := 2026-08-05
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
