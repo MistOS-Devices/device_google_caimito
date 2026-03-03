@@ -47,6 +47,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ApertureOverlayKomodo
 
+$(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
+
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
 
