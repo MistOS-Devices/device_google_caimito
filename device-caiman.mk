@@ -20,6 +20,8 @@ DEVICE_PACKAGE_OVERLAYS += device/google/caimito/caiman/overlay
 DEVICE_PACKAGE_OVERLAYS += device/google/caimito/caiman/overlay-lineage
 DEVICE_PACKAGE_OVERLAYS += device/google/caimito/overlay-lineage
 
+$(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
+
 # Audio
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml
