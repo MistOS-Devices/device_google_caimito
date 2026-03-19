@@ -23,6 +23,7 @@ include device/google/zumapro/device-shipping-common.mk
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
+    device/google/caimito/komodo/overlay-lineage \
     device/google/caimito/overlay-lineage
 
 PRODUCT_PACKAGES += \
@@ -46,9 +47,6 @@ PRODUCT_PACKAGES += \
     SettingsGoogleOverlayVendorKomodo \
     SettingsKomodoOverlay \
     SystemUIGoogleOverlayVendorKomodo
-
-PRODUCT_PACKAGES += \
-    ApertureOverlayKomodo
 
 # PowerShare
 include hardware/google/pixel/powershare/device.mk
