@@ -1,7 +1,7 @@
 [
   {
-    "repository": "device_google_zumapro",
-    "remote": "mist-device",
+    "repository": "MistOS-Devices/device_google_zumapro",
+    "remote": "github-non-los",
     "branch": "16.2",
     "target_path": "device/google/zumapro"
   },
