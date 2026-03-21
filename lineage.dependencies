@@ -6,7 +6,9 @@
     "target_path": "device/google/zumapro"
   },
   {
-    "repository": "android_device_google_caimito-kernels",
+    "repository": "LineageOS/android_device_google_caimito-kernels",
+    "remote": "github",
+    "branch": "lineage-23.2",
     "target_path": "device/google/caimito-kernels"
   },
   {
