@@ -2,6 +2,7 @@
   {
     "repository": "device_google_zumapro",
     "remote": "mist-device",
+    "branch": "16.2",
     "target_path": "device/google/zumapro"
   },
   {
