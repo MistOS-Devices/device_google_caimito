@@ -19,7 +19,7 @@ endif
 SHIPPING_API_LEVEL := 34
 
 # Inherit from zumapro
-include device/google/zumapro/device-shipping-common.mk
+include device/google/zumapro/common.mk
 
 # Overlays
 PRODUCT_PACKAGES += \
