@@ -1,10 +1,30 @@
 [
   {
-    "repository": "android_device_google_zumapro",
+    "repository": "device_google_zumapro",
     "target_path": "device/google/zumapro"
   },
   {
-    "repository": "android_device_google_caimito-kernels",
+    "repository": "LineageOS/android_device_google_caimito-kernels",
+    "remote": "github",
+    "branch": "lineage-23.2",
     "target_path": "device/google/caimito-kernels"
+  },
+  {
+    "repository": "Trijal08/proprietary_vendor_google_komodo",
+    "remote": "github",
+    "branch": "Mist_OS-16.2",
+    "target_path": "vendor/google/komodo"
+  },
+  {
+    "repository": "Trijal08/proprietary_vendor_google_caiman",
+    "remote": "github",
+    "branch": "Mist_OS-16.2",
+    "target_path": "vendor/google/caiman"
+  },
+  {
+    "repository": "Trijal08/proprietary_vendor_google_tokay",
+    "remote": "github",
+    "branch": "Mist_OS-16.2",
+    "target_path": "vendor/google/tokay"
   }
 ]
