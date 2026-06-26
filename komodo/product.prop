@@ -1,4 +1,6 @@
 # Bluetooth
+bluetooth.ble.client.subrate_le_audio_mode_max_subrate.config=2
+bluetooth.ble.client.subrate_le_audio_mode_min_subrate.config=2
 bluetooth.core.le.dsa_transport_preference=iso-sw,le-acl
 bluetooth.device_id.product_id=16657
 bluetooth.profile.gmap.enabled=true
@@ -17,3 +19,6 @@ ro.com.google.ime.kb_pad_port_b=9.6
 
 # Quick start
 ro.quick_start.device_id=komodo
+
+# Telephony
+persist.vendor.ril.camp_on_earlier=1

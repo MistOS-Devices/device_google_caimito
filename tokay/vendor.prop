@@ -29,6 +29,10 @@ ro.odm.build.media_performance_class=35
 # PKVM
 hypervisor.memory_reclaim.supported=1
 
+# Power
+vendor.powerhal.apf_disabled=false
+vendor.powerhal.apf_enabled=true
+
 # Radio
 persist.vendor.ril.use_radio_hal=2.2
 ro.vendor.ril.use_radio_hal=2.2
